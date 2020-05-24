@@ -1,0 +1,16 @@
+runtime: php55
+api_version: 1
+
+handlers:
+
+- url: /
+  script: login.php
+
+- url: /nutrition
+  script: nutrition.php
+
+- url: /register
+  script: register.php
+
+- url: /stylesheets
+  static_dir: stylesheets
